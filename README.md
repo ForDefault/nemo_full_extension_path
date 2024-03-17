@@ -1,3 +1,7 @@
+#### Other Nemo Actions:
+[nemo_copy_folder_content_list](https://github.com/ForDefault/nemo_copy_folder_content_list)
+
+
 # Full_Ext_Path Installation Guide
 
 This Nemo action enables users to copy the full paths of files and folders, including their names and extensions, directly to the clipboard. 
