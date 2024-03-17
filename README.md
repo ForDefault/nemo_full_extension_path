@@ -1,5 +1,7 @@
-#### My Other Nemo Actions:
+#### My nemo_actions:
 - [nemo_copy_folder_content_list](https://github.com/ForDefault/nemo_copy_folder_content_list)
+- **[nemo_full_extension_path](https://github.com/ForDefault/nemo_full_extension_path)**
+- [nemo_open_in_new_window](https://github.com/ForDefault/nemo_open_in_new_window)
 
 
 # Installation Guide: Full_Ext_Path
