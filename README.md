@@ -1,0 +1,1 @@
+# nemo_full_extension_path
