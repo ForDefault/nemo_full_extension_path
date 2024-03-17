@@ -1,5 +1,5 @@
-#### Other Nemo Actions:
-[nemo_copy_folder_content_list](https://github.com/ForDefault/nemo_copy_folder_content_list)
+#### My Other Nemo Actions:
+- [nemo_copy_folder_content_list](https://github.com/ForDefault/nemo_copy_folder_content_list)
 
 
 # Full_Ext_Path Installation Guide
