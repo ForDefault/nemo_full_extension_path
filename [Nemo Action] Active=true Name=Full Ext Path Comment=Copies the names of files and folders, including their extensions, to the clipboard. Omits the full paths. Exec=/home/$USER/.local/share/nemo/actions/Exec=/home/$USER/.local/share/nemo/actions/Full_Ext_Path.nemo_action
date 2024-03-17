@@ -1,9 +1,0 @@
-[Nemo Action]
-Active=true
-Name=Full Ext Path
-Comment=Copies the names of files and folders, including their extensions, to the clipboard.
-Exec=/home/$USER/.local/share/nemo/actions/Full_Ext_Path.sh %F
-Icon-Name=edit-copy
-Selection=s
-Extensions=any;
-EscapeSpaces=true
