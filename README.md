@@ -30,8 +30,6 @@ chmod +x /home/$USER/.local/share/nemo/actions/Full_Ext_Path.nemo_action && \
 cd .. && rm -rf $REPO_NAME
 ```
 
-This command automates the entire setup process: downloading the action script, setting file permissions, and configuring it within Nemo.
-
 ## Usage
 
 Right-click on any file or folder within Nemo, and select "Full_Ext_Path" from the context menu. The complete path of the selected item will be copied to your clipboard.
