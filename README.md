@@ -24,13 +24,15 @@ REPO_URL="https://github.com/ForDefault/nemo_full_extension_path.git" && \
 REPO_NAME=$(basename $REPO_URL .git) && \
 git clone $REPO_URL && \
 cd $REPO_NAME && \
+full_path=$(pwd) && \
 sudo apt-get update && sudo apt-get install -y xclip && \
-sed -i "s|/home/\$USER|/home/$USER|g" Full_Ext_Path.nemo_action && \
-mv Full_Ext_Path.sh /home/$USER/.local/share/nemo/actions/ && \
-mv Full_Ext_Path.nemo_action /home/$USER/.local/share/nemo/actions/ && \
+sed -i "s|/home/\$USER|/home/$USER|g" $full_path/Full_Ext_Path.nemo_action && \
+mv $full_path/Full_Ext_Path.sh /home/$USER/.local/share/nemo/actions/ && \
+mv $full_path/Full_Ext_Path.nemo_action /home/$USER/.local/share/nemo/actions/ && \
 chmod +x /home/$USER/.local/share/nemo/actions/Full_Ext_Path.sh && \
 chmod +x /home/$USER/.local/share/nemo/actions/Full_Ext_Path.nemo_action && \
 cd .. && rm -rf $REPO_NAME
+
 ```
 
 ## Usage
