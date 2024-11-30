@@ -4,6 +4,6 @@ Name=Full Ext Path
 Comment=Copies the names of files and folders, including their extensions, to the clipboard.
 Exec=/home/$USER/.local/share/nemo/actions/Full_Ext_Path.sh %F
 Icon-Name=edit-copy
-Selection=s
+Selection=any
 Extensions=any;
 EscapeSpaces=true
